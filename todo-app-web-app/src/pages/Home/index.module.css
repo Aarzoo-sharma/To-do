@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 12px;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}   
+
+.upperContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #efefef;
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px 2px #888888;
+    padding: 8px 20px;
+}
+.lowerContainer{
+    width: 100%;
+    border-radius: 8px;
+    height: 30vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: #fbfbfb;
+}
+.btn {
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(31, 149, 200);
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgb(15, 94, 128);
+}

@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(226, 222, 222);
+    width: 40vw;
+    margin: 20vh auto;
+    padding: 10px 40px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 4px 1px rgb(132, 131, 131);
+}
+
+.form {
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    width: 40%;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(60, 59, 59);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+    background-color: aqua;
+}
+
+.btn:hover {
+    color: rgb(242, 242, 242);
+    background-color: rgb(56, 206, 206);
+}
+@media screen and (max-width:550px) {
+    .container{
+        width: 70vw;
+        padding: 10px 20px;
+    }
+    .form{
+        width: 100%;
+    }
+}
